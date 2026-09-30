@@ -1,8 +1,8 @@
 # Wattreya
 
-Bilara Group's own typeface: a bold geometric sans for the brand, signage and
-headings. **Proprietary and for internal use only** — see [LICENSE.md](LICENSE.md)
-and [COPYRIGHT.md](COPYRIGHT.md).
+Bilara Group's own typeface, reserved for designing the company's logo and
+brand marks. **Proprietary and for internal use only**: see
+[LICENSE.md](LICENSE.md) and [COPYRIGHT.md](COPYRIGHT.md).
 
 ![Wattreya specimen](specimen.png)
 
@@ -10,48 +10,64 @@ and [COPYRIGHT.md](COPYRIGHT.md).
 | --- | --- |
 | Version | 1.4 (final) |
 | Style | Regular (one weight) |
-| Characters | 210: A–Z, a–z, 0–9 (equal-width figures for tables), punctuation, ₹ € £ ¥ $ ¢, © ® ™, and Western European accented letters |
+| Characters | 210: A–Z, a–z, 0–9, punctuation, ₹ € £ ¥ $ ¢, © ® ™, and Western European accented letters |
+| Purpose | Logo and brand-mark design |
 | Owner | Bilara Group |
 
 ## Files
 
 | File | Use |
 | --- | --- |
-| `Wattreya-Regular.ttf` | Install on company computers (Word, PowerPoint, Excel, design apps) |
-| `Wattreya-Regular.woff2` | Web version, for Bilara Group websites |
-| `specimen.png` | Preview of the font |
-| `LICENSE.md` | Who may use it and how |
-| `COPYRIGHT.md` | Ownership record, version history and file fingerprints |
+| `Wattreya-Regular.ttf` | The font. Install it on the computer used for logo design |
+| `specimen.png` | Preview of every style of character |
+| `LICENSE.md` | Who may use the font and how |
+| `COPYRIGHT.md` | Ownership record, version history and file fingerprint |
 
-This repository is the master copy of the font. Keep it **private**.
-The company website (`bilaragroup/BilaraGroup`) carries only its own copy of the
-web font, at `app/fonts/Wattreya-Regular.woff2`.
+This repository is the master copy of the font. Keep it **private**, and give
+access only to the people who design Bilara Group's logo and brand marks.
 
-## Installing
+## Installing (design computer only)
 
 Remove any older copy of Wattreya (or "Trail 3" / "Wattr") first, then:
 
-- **Windows:** right-click `Wattreya-Regular.ttf` → **Install for all users**. Restart Office apps.
-- **Mac:** double-click `Wattreya-Regular.ttf` → **Install Font**. Restart open apps.
-- **Canva (Pro/Teams):** Brand → Brand Kit → Fonts → Upload.
+- **Windows:** right-click `Wattreya-Regular.ttf` → **Install**. Restart the design app.
+- **Mac:** double-click `Wattreya-Regular.ttf` → **Install Font**. Restart the design app.
 
-## Using it
+It then appears as **Wattreya** in Illustrator, CorelDRAW, Affinity Designer,
+Photoshop, Inkscape and the Figma desktop app.
 
-- **Documents going outside the company:** export to PDF. The font embeds for
-  viewing and printing only, so recipients see it correctly but cannot install it.
-- **Printers and sign makers:** send PDFs or artwork with text converted to
-  outlines. Do not send the font file (see LICENSE.md).
-- **Company website (`bilaragroup/BilaraGroup`):** Tailwind class `font-brand`, or
-  `font-family: var(--font-wattreya)`. The font is loaded in `app/fonts/wattreya.ts`;
-  switch `preload` to `true` there once it is used above the fold.
-- **Other websites or apps of Bilara Group:** use `Wattreya-Regular.woff2` with
-  `@font-face`; never serve the `.ttf`.
+## Designing a logo with it
+
+1. **Set the name** in Wattreya in your design app.
+2. **Adjust the spacing by eye.** The font's built-in spacing is made for text.
+   A logo usually needs letter pairs tightened or loosened individually.
+3. **Convert the text to outlines** before saving the final artwork
+   (Illustrator: *Type → Create Outlines*; CorelDRAW: *Convert to Curves*;
+   Affinity: *Convert to Curves*; Figma: *Outline stroke / Flatten*).
+   The logo then no longer needs the font, and nobody can extract the font from it.
+4. **Keep the editable working file** (with live text) in company storage
+   so the logo can be revised later.
+5. **Export the final logo** as SVG and PDF (vector masters) and PNG
+   (transparent background), in each colour version you need.
+6. **Store the logo files separately** from this repository, for example in a
+   `brand/logo` folder in company storage. Share the logo files freely; never
+   share the font file.
+
+## Protecting the logo
+
+- A logo made with Wattreya belongs to Bilara Group, like the font itself.
+- Once the logo is final, consider registering it as a trademark with IP India
+  (a logo mark, alongside the word mark "Wattreya" for the font).
+- Designers, agencies and printers receive the outlined logo files only,
+  never `Wattreya-Regular.ttf`. See LICENSE.md.
 
 ## Updating the font
 
-1. Replace both font files here, and `app/fonts/Wattreya-Regular.woff2` in the website repo.
+1. Replace `Wattreya-Regular.ttf` here with the new version.
 2. Increase the version number inside the font.
-3. Add a row to the version history and the new fingerprints in COPYRIGHT.md.
+3. Add a row to the version history and the new fingerprint in COPYRIGHT.md.
+
+Logos already converted to outlines are not affected by font updates.
 
 ## Contact
 
