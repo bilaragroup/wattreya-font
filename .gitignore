@@ -1,2 +1,14 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Build output (fonts/ is rebuilt from sources/)
+build/
+instance_ufo/
+master_ufo/
+
+# OS
 .DS_Store
 Thumbs.db
