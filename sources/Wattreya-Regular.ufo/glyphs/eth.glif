@@ -2,6 +2,8 @@
 <glyph name="eth" format="2">
   <advance width="612"/>
   <unicode hex="00F0"/>
+  <anchor x="306" y="655" name="Anchor-0"/>
+  <anchor x="306" y="0" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="212" y="424" type="qcurve"/>

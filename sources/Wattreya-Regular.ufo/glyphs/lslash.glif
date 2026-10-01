@@ -2,6 +2,8 @@
 <glyph name="lslash" format="2">
   <advance width="436"/>
   <unicode hex="0142"/>
+  <anchor x="218" y="655" name="Anchor-0"/>
+  <anchor x="218" y="0" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="131" y="640" type="line"/>

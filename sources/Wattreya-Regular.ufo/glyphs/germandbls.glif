@@ -2,6 +2,8 @@
 <glyph name="germandbls" format="2">
   <advance width="648"/>
   <unicode hex="00DF"/>
+  <anchor x="327" y="663" name="Anchor-0"/>
+  <anchor x="327" y="0" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="502" y="356" type="qcurve"/>

@@ -2,6 +2,8 @@
 <glyph name="Eth" format="2">
   <advance width="888"/>
   <unicode hex="00D0"/>
+  <anchor x="444" y="658" name="Anchor-0"/>
+  <anchor x="444" y="0" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="193" y="674" type="line"/>

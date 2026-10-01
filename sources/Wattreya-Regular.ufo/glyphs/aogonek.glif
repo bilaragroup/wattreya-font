@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek" format="2">
+  <advance width="582"/>
+  <unicode hex="0105"/>
+  <anchor x="324" y="438" name="Anchor-0"/>
+  <anchor x="324" y="0" name="Anchor-1"/>
+  <outline>
+    <component base="a" identifier="component0"/>
+    <component base="ogonek" xOffset="359" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

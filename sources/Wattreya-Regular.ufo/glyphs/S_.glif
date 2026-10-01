@@ -2,6 +2,8 @@
 <glyph name="S" format="2">
   <advance width="661"/>
   <unicode hex="0053"/>
+  <anchor x="329" y="658" name="Anchor-0"/>
+  <anchor x="329" y="0" name="Anchor-1"/>
   <outline>
     <contour>
       <point x="553" y="661" type="qcurve"/>

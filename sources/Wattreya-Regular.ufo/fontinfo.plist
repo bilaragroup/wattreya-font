@@ -35,7 +35,6 @@
     <key>openTypeHeadFlags</key>
     <array>
       <integer>0</integer>
-      <integer>1</integer>
       <integer>2</integer>
       <integer>3</integer>
     </array>
@@ -280,11 +279,15 @@
       <integer>0</integer>
       <integer>1</integer>
       <integer>2</integer>
+      <integer>3</integer>
       <integer>5</integer>
+      <integer>6</integer>
+      <integer>29</integer>
       <integer>31</integer>
       <integer>33</integer>
       <integer>35</integer>
       <integer>38</integer>
+      <integer>45</integer>
     </array>
     <key>openTypeOS2VendorID</key>
     <string>UKWN</string>

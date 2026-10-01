@@ -2,6 +2,8 @@
 <glyph name="yacute" format="2">
   <advance width="630"/>
   <unicode hex="00FD"/>
+  <anchor x="315" y="670" name="Anchor-0"/>
+  <anchor x="315" y="0" name="Anchor-1"/>
   <outline>
     <component base="y" identifier="component0"/>
     <component base="acute" xOffset="142" yOffset="1" identifier="component1"/>

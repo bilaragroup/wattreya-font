@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabove" format="2">
+  <advance width="230"/>
+  <outline>
+    <contour>
+      <point x="156" y="498" type="line"/>
+      <point x="48" y="498" type="line"/>
+      <point x="91" y="714" type="line"/>
+      <point x="182" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

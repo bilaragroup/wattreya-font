@@ -2,6 +2,8 @@
 <glyph name="Ocircumflex" format="2">
   <advance width="821"/>
   <unicode hex="00D4"/>
+  <anchor x="410" y="658" name="Anchor-0"/>
+  <anchor x="410" y="0" name="Anchor-1"/>
   <outline>
     <component base="O" identifier="component0"/>
     <component base="circumflex.case" xOffset="154" identifier="component1"/>
